@@ -1,3 +1,8 @@
+@media (max-width: 360px) {
+  h1 {
+    font-size: 56px;
+  }
+}
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -8,11 +13,7 @@
     rgba(148, 187, 233, 1) 100%
   );
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 56px;
-  }
-}
+
 body {
   margin: 60px auto;
   background-image: var(--gradient);
