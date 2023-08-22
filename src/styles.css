@@ -8,7 +8,7 @@
     rgba(148, 187, 233, 1) 100%
   );
 }
-@media max-width(576px) {
+@media (max-width: 576px) {
   h1 {
     font-size: 56px;
   }
